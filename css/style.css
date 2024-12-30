@@ -1,0 +1,122 @@
+li{
+    List-style-type: none
+    /* 点が消える */
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.headerNav{
+    display: flex;
+}
+.headerNavContents{
+    padding: 12px 0px 12px 0px;
+}
+.headerTextContainer{
+    padding: 12px 32px 12px 32px;
+    border-right: 1px solid #000;
+}
+.headerText{
+    margin: 0px;
+}
+.headerItemContens{
+    display: flex;
+    justify-content: space-between;
+}
+.maintext{
+    text-align: center;
+}
+.sec-title{
+    border-bottom: solid 8px #e9e254;
+    display: inline;
+    color: #A067A2;
+}
+.MERIT{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #A067A2;/*文字色*/
+    background: #FFF;
+    border: solid 1px #A067A2;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+.text{
+    text-align: center;
+    color: #FFF;
+    font-size: small;
+    border: solid 1px #A067A2;
+    background: #A067A2;
+    border-radius: 30px;
+    display: inline;
+
+}
+.readmore{
+    text-align: right;
+    color: #A067A2;
+}
+.MERIT-contents{
+    display: flex;
+    justify-content: space-between ;
+   
+}
+#header{
+    border-bottom: solid 1px #000;
+}
+.footertext{
+    text-align: right;
+    color: #FFF;
+}
+
+
+#main-picutuer{
+    padding: 65px 0px 0px 95px;
+}
+.picuter{ 
+    width: 650px;
+    height: 700px;
+}
+.MERIT-style{
+    display: flex;
+}
+.underline{
+    width: 34px;
+    height: 779px;
+    background-color: #F4FF1F;
+}
+.text-container{
+    position: relative;
+    right: -30px;
+    width: 100%;
+    writing-mode: vertical-rl;
+    font-size: 64px;
+    
+}
+.site-title{
+    margin: 0px;
+    
+}
+.container{
+    position: relative;
+    display: flex;
+}
+.border{
+    border-bottom: solid 1px #000;  
+}
+.top-container{
+    display: flex;
+}
+.center{
+    width: 100%;
+}
+.objects{
+    float: right;
+    z-index: -50;
+}
+.last{
+    width: 100%;
+}
